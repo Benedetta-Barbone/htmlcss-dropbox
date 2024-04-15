@@ -4,17 +4,17 @@
     box-sizing: border-box;
 }
 
-ul>li{
+ul.navigazione>li{
     list-style-type: none;
 }
 
-ul{
+.navigazione{
     display: flex;
     justify-content: space-between;
 }
 
 li{
-    padding-right: 0.5rem;
+    padding-right: 2rem;
 }
 
 .container{
@@ -61,5 +61,52 @@ nav{
     position: absolute;
     top: 177px;
     right: 194px;
+}
+
+main{
+    margin: auto;
+    width: 1500px;
+    padding: 3rem 20rem;
+}
+
+.fatturazione{
+    list-style-type: circle;
+    display: flex;
+    padding: 3rem 0;
+}
+
+.abbonamenti{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tipologia{
+    border: 2px black;
+    width: calc(100%/3);
+    height: 30rem;
+    margin-right: 2rem;
+  }
+
+  .contatto{
+    width: 100%;
+  }
+
+.partner{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 4rem 0;
+        width: 100%;
+}
+
+.operazioni{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 6rem;
+}
+
+.padding-right{
+    padding-right: 2rem;
 }
 
