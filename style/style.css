@@ -3,3 +3,63 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+ul>li{
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    padding-right: 0.5rem;
+}
+
+.container{
+    margin: auto;
+    width: 1500px;
+
+}
+
+.logo-small{
+    padding: 1rem;
+    display: inline-block;
+    position: absolute;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.intro{
+    text-align: center;
+    background-color: #b4d0e7;
+    margin-top: 1.5rem;
+    padding: 3rem 14rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.prova-gratuita{
+    display: flex;
+    position: relative;
+    padding-top: 2rem;
+    flex-direction: column;
+    width: 26rem;
+    padding-bottom: 10rem;
+}
+
+
+.jumbo{
+    width: 45%;
+    position: absolute;
+    top: 177px;
+    right: 194px;
+}
+
