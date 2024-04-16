@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    font-size: 12px;
 }
 
 ul.navigazione>li{
@@ -17,16 +21,8 @@ li{
     padding-right: 2rem;
 }
 
-.container{
-    margin: auto;
-    width: 1500px;
-
-}
-
 .logo-small{
-    padding: 1rem;
-    display: inline-block;
-    position: absolute;
+    padding-bottom: 1rem;
 }
 
 nav{
@@ -36,14 +32,43 @@ nav{
     padding-top: 1rem;
 }
 
-.intro{
+.btn{
+    border: none;
+}
+
+.btn-blue{
+    background-color: #0061ff;
+    color: white;    
+}
+
+.btn-accedi{
+    padding: 0.2rem 0.4rem;
+}
+
+.btn-prova{
+    padding: 5px 8px;
+    margin: 25px 100px 25px 0;
+}
+
+.freccia{
+    font-size: 30px;
+    padding: 3rem 0 0.7rem;
+}
+
+.titolo{
+    font-size: 64px;
+    text-align: left;
+}
+
+.container{
     text-align: center;
     background-color: #b4d0e7;
-    margin-top: 1.5rem;
-    padding: 3rem 14rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+}
+
+.intro{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 3rem;
 }
 
 .prova-gratuita{
@@ -51,22 +76,21 @@ nav{
     position: relative;
     padding-top: 2rem;
     flex-direction: column;
-    width: 26rem;
-    padding-bottom: 10rem;
+    width: 35%;
+    text-align: left;
 }
-
-
 .jumbo{
-    width: 45%;
+    width: 40%;
     position: absolute;
-    top: 177px;
-    right: 194px;
+    top: 308px;
+    right: 272px;
 }
+
 
 main{
-    margin: auto;
-    width: 1500px;
-    padding: 3rem 20rem;
+    margin: 0 auto;
+    width: 750px;
+    padding: 8rem 0;
 }
 
 .fatturazione{
