@@ -8,8 +8,9 @@ header{
     font-size: 12px;
 }
 
-ul.navigazione>li{
+ul.navigazione, ul.info-generali, ul.punti-salienti>li{
     list-style-type: none;
+    padding-left: 1rem;
 }
 
 .navigazione{
@@ -48,6 +49,11 @@ nav{
 .btn-prova{
     padding: 5px 8px;
     margin: 25px 100px 25px 0;
+}
+
+.btn-30gg{
+    padding: 0.5rem;
+    margin: 2rem 0;
 }
 
 .freccia{
@@ -93,6 +99,11 @@ main{
     padding: 8rem 0;
 }
 
+.titolo-sezioni{
+    font-weight: 600;
+    font-size: 35px;
+}
+
 .fatturazione{
     list-style-type: circle;
     display: flex;
@@ -105,22 +116,51 @@ main{
 }
 
 .tipologia{
-    border: 2px black;
     width: calc(100%/3);
-    height: 30rem;
-    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: #eeeeee;
   }
 
-  .contatto{
+.center{
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 0.2px;
+    border-bottom-color: #eeeeee;
+}
+
+.advanced{
+    margin: 0 2rem;
+}
+
+.font-gray{
+    color: gray;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.blue{
+    color:#0b67ff;
+}
+
+article{
+    font-size: 12px;
+}
+
+.contatto{
     width: 100%;
-  }
+}
 
 .partner{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 4rem 0;
-        width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 0;
+    width: 100%;
 }
 
 .operazioni{
@@ -134,3 +174,10 @@ main{
     padding-right: 2rem;
 }
 
+.padding-left{
+    padding-left: 1rem;
+}
+
+.punti-salienti{
+    padding-top: 4rem;
+}
