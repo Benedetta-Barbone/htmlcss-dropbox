@@ -16,21 +16,18 @@ ul.navigazione, ul.info-generali, ul.punti-salienti>li{
 .navigazione{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 li{
     padding-right: 2rem;
 }
 
-.logo-small{
-    padding-bottom: 1rem;
-}
-
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1rem;
+    padding: 1rem 0;
 }
 
 .btn{
@@ -47,9 +44,14 @@ nav{
 }
 
 .btn-prova{
-    padding: 5px 0px;
+    padding: 6px 0px;
   margin: 25px 100px 25px 0;
   width: 100%;
+  font-size: 12px;
+}
+
+.prova-gratuita>button{
+    width: 60%;
 }
 
 
@@ -110,6 +112,7 @@ main, .domande-frequenti{
     padding: 8rem 0;
 }
 
+
 .titolo-sezioni{
     font-weight: 600;
     font-size: 35px;
@@ -135,18 +138,22 @@ main, .domande-frequenti{
 .border{
     border-style: solid;
     border-width: 0.2px;
-    border-color: #eeeeee;
+    border-color: #bfbfbf;
 }
 
 .border-bottom{
     border-bottom-style: solid;
     border-bottom-width: 0.2px;
-    border-bottom-color: #eeeeee;
+    border-bottom-color:#bfbfbf;
 }
 
 .center{
     text-align: center;
-   
+    padding: 0.5rem 0;
+}
+
+h2{
+    padding-top: 1rem;
 }
 
 .advanced{
@@ -189,6 +196,10 @@ article{
     padding-bottom: 3rem;
 }
 
+section.padding-left{
+    line-height: 2rem;
+}
+
 .padding-right{
     padding-right: 2rem;
 }
@@ -208,6 +219,11 @@ article{
 .enterprise{
     display: flex;
     justify-content: space-around;
+    padding: 0 3rem;
+}
+
+.enterprise div>p{
+    padding: 1rem 0;
 }
 
 .contatto{
@@ -349,4 +365,8 @@ article{
 
 .link div>section{
     line-height: 2rem;
+}
+
+ul.info-generali{
+    padding-top: 2rem;
 }
